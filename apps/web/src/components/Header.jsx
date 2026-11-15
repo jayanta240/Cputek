@@ -245,6 +245,10 @@ const Header = () => {
               </div>
             </div>
 
+            <Link to="/portfolio" className={`text-sm font-medium smooth-transition ${isActive('/portfolio') ? 'text-primary' : 'text-foreground hover:text-primary'}`}>
+              Portfolio
+            </Link>
+
             <Link to="/careers" className={`text-sm font-medium smooth-transition ${isActive('/careers') ? 'text-primary' : 'text-foreground hover:text-primary'}`}>
               Careers
             </Link>
@@ -420,6 +424,14 @@ const Header = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Blogs
+              </Link>
+
+              <Link
+                to="/portfolio"
+                className="block px-4 py-3 text-lg font-medium text-foreground hover:text-primary hover:bg-white/5 rounded-xl smooth-transition min-h-[44px]"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Portfolio
               </Link>
 
               <Link

@@ -1,5 +1,5 @@
 const DEFAULT_PRODUCTION_API_URL =
-  "https://cputek-9mka.onrender.com";
+  "https://api.cputek.in";
 
 export const API_SERVER_URL = (
   import.meta.env.VITE_API_URL ||

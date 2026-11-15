@@ -74,7 +74,7 @@ const BlogsPage = () => {
               <p className="py-12 text-center text-muted-foreground">No articles have been published yet.</p>
             ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7">
-              {blogs.map((blog, index) => {
+              {blogs.slice(0, 6).map((blog, index) => {
                 const cover = blog.images?.[0]?.url ? `${API_SERVER_URL}${blog.images[0].url}` : "";
                 return (
                   <ScrollRevealAnimation key={blog.slug} delay={index * 0.08}>

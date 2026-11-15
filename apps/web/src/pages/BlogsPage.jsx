@@ -100,8 +100,8 @@ const BlogsPage = () => {
                         <Clock3 className="w-4 h-4" />
                         <span>{blog.readTime}</span>
                       </div>
-                      <h2 className="text-2xl font-bold text-foreground mb-4 leading-snug">{blog.title}</h2>
-                      <p className="text-muted-foreground leading-relaxed mb-8 flex-grow">{blog.excerpt}</p>
+                      <h2 className="text-2xl font-bold text-white mb-4 leading-snug line-clamp-2 min-h-[3.5rem]">{blog.title}</h2>
+                      <p className="text-muted-foreground leading-relaxed mb-8 flex-grow line-clamp-3">{blog.excerpt}</p>
                       <Link
                         to={`/blogs/${blog.slug}`}
                         className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 smooth-transition"

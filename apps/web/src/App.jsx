@@ -18,6 +18,7 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import IndustryDetailPage from "./pages/IndustryDetailPage";
+import PortfolioPage from "./pages/PortfolioPage";
 
 const PageWrapper = ({ children }) => {
   return (
@@ -52,6 +53,7 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<PageWrapper><HomePage /></PageWrapper>} />
+        <Route path="/portfolio" element={<PageWrapper><PortfolioPage /></PageWrapper>} />
         <Route path="/about" element={<PageWrapper><AboutPage /></PageWrapper>} />
         <Route path="/products" element={<PageWrapper><ProductsPage /></PageWrapper>} />
         <Route path="/products/:productId" element={<PageWrapper><ProductDetailPage /></PageWrapper>} />

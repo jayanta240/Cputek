@@ -6,6 +6,7 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import ScrollRevealAnimation from '@/components/ScrollRevealAnimation.jsx';
 import GlowButton from '@/components/GlowButton.jsx';
+import FAQSection from '@/components/FAQSection.jsx';
 import { productsData } from '@/data/products.js';
 
 const ProductDetailPage = () => {
@@ -154,6 +155,11 @@ const ProductDetailPage = () => {
               </div>
             </section>
 
+            <FAQSection
+              faqs={product.faqs}
+              description="Answers to common questions about this product and how it works."
+            />
+
             <section className="py-16 md:py-24">
               <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
                 <ScrollRevealAnimation>
@@ -264,6 +270,11 @@ const ProductDetailPage = () => {
             </div>
           </div>
         </section>
+
+            <FAQSection
+              faqs={product.faqs}
+              description="Answers to common questions about this product and how it works."
+            />
 
         <section className="py-24 relative">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

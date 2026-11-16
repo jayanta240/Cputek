@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion.jsx";
 import ScrollRevealAnimation from '@/components/ScrollRevealAnimation.jsx';
 
-const FAQSection = ({ faqs }) => {
+const FAQSection = ({ faqs, description = 'Everything you need to know about this service and how we work.' }) => {
   if (!faqs || faqs.length === 0) return null;
 
   return (
@@ -23,7 +23,7 @@ const FAQSection = ({ faqs }) => {
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-muted-foreground">
-              Everything you need to know about this service and how we work.
+              {description}
             </p>
           </div>
         </ScrollRevealAnimation>

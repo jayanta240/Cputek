@@ -21,6 +21,13 @@ export const productsData = [
     ],
     description:
       'Turn company documents and existing learning materials into an active, personalized trainer employees can ask for guidance whenever they need it.',
+    faqs: [
+      { question: 'What types of learning content can the platform use?', answer: 'The platform can work with company knowledge such as handbooks, standard operating procedures, training documents, slide presentations and recorded video content.' },
+      { question: 'Can employees ask questions about company policies and procedures?', answer: 'Yes. Employees can ask questions in natural language and receive answers grounded in the company content made available to the platform.' },
+      { question: 'Does the platform support different employee roles?', answer: 'Yes. Learning paths and practice activities can be organized around job roles, helping employees focus on the procedures and knowledge relevant to their work.' },
+      { question: 'Can the system help create quizzes and learning materials?', answer: 'The platform can turn existing company materials into summaries, practice questions and short learning activities to support employee revision.' },
+      { question: 'Can employees use the platform in different languages?', answer: 'The product is designed to support multilingual learning experiences so teams can access guidance in languages supported by the implementation.' },
+    ],
     overview:
       'Connect trusted company knowledge with personalized learning employees can use in the flow of work.',
     contentSections: [
@@ -74,6 +81,13 @@ export const productsData = [
     ],
     description:
       'Turn static websites into conversational guides that answer questions, explain tasks, and recommend the right products using your trusted company content.',
+    faqs: [
+      { question: 'What information can the AI Knowledge Layer use?', answer: 'It can be connected to approved website content, product information, manuals, policy documents and frequently asked questions so visitors can find relevant information.' },
+      { question: 'How does it help website visitors?', answer: 'Visitors can ask questions in natural language and receive relevant answers with links or guidance that help them find the right pages and information.' },
+      { question: 'Can it guide users through complex tasks?', answer: 'Yes. Depending on the content and implementation, it can provide step-by-step instructions and use supporting screenshots or video walkthroughs.' },
+      { question: 'Can it recommend products or services?', answer: 'It can use connected product or service information to help visitors compare options and identify offerings that fit the requirements they describe.' },
+      { question: 'Which types of websites can use this product?', answer: 'The knowledge layer can be adapted for business websites, product catalogs, enterprise portals, educational websites and other information-rich digital experiences.' },
+    ],
     overview:
       'Website visitors waste time clicking through confusing navigation menus, and customers struggle to find exact specifications inside long documents. The CPUTEK knowledge engine turns static websites into conversational guides, and users type questions directly into a search box. The platform connects to product catalogs, user manuals, policy documents, and frequently asked questions.\n\nThe software reads the visitor query, and it provides a direct answer with links to the right web pages. This platform works for public retail stores, enterprise software portals, universities, and regional hospitals. The engine acts as an informed digital assistant, and it helps visitors without human staff involvement.',
     contentSections: [
@@ -120,6 +134,13 @@ export const productsData = [
     ],
     description:
       'Understand which regulations apply to your business, track the evidence and actions they require, and give every team a clear view of compliance risk.',
+    faqs: [
+      { question: 'How does the platform identify which regulations apply to a business?', answer: 'It uses business context such as industry, activities, employee numbers and operating locations to help map relevant regulatory requirements to the organization.' },
+      { question: 'Can it track compliance deadlines?', answer: 'Yes. The platform can organize recurring filings, inspections, permits and other compliance tasks into a schedule with upcoming and overdue items.' },
+      { question: 'How does it help prepare for audits?', answer: 'Teams can organize policies, inspection reports and other supporting records as evidence, while the platform helps identify missing documentation and potential gaps.' },
+      { question: 'Can managers see compliance risks across departments?', answer: 'The platform is designed to help teams prioritize tasks using factors such as overdue status, missing evidence and potential impact, and provide visibility into outstanding work.' },
+      { question: 'Does the platform replace legal or compliance professionals?', answer: 'No. It supports monitoring, organization and prioritization, but regulatory interpretation and compliance decisions should remain subject to review by qualified professionals.' },
+    ],
     overview:
       'Standard compliance programs only track filing dates on a calendar, and managers receive warnings when deadlines approach. But traditional software cannot explain how new laws impact specific factory operations or corporate contracts. The CPUTEK compliance platform reads government notifications, and it determines which legal rules apply to the business.\n\nThe engine connects public regulations with company policies, business licenses, and internal operational data. The system alerts compliance teams to required actions and tracks evidence to prepare for upcoming legal audits. Senior leaders view overall compliance health across all branch locations, and legal teams prevent unexpected fines.',
     contentSections: [

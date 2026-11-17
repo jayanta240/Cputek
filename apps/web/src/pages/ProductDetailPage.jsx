@@ -73,9 +73,14 @@ const ProductDetailPage = () => {
                     <GlowButton variant="primary" onClick={() => navigate('/contact')}>
                       Request a Demo
                     </GlowButton>
-                    <a href="#how-it-works" className="inline-flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary smooth-transition">
-                      Explore the platform <ArrowRight className="h-4 w-4" />
-                    </a>
+                    <GlowButton
+                      variant="secondary"
+                      href="https://lms-demo-seven-roan.vercel.app/dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Explore the Platform <ArrowRight className="h-4 w-4" />
+                    </GlowButton>
                   </div>
                 </ScrollRevealAnimation>
 

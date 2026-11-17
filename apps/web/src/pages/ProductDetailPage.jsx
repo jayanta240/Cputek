@@ -79,7 +79,10 @@ const ProductDetailPage = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Explore the Platform <ArrowRight className="h-4 w-4" />
+                      <span className="inline-flex items-center gap-2 whitespace-nowrap">
+                        Explore the Platform
+                        <ArrowRight className="h-4 w-4 shrink-0" />
+                      </span>
                     </GlowButton>
                   </div>
                 </ScrollRevealAnimation>

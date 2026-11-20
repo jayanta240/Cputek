@@ -75,7 +75,7 @@ const ProductDetailPage = () => {
                     </GlowButton>
                     <GlowButton
                       variant="secondary"
-                      href="https://lms-demo-seven-roan.vercel.app/dashboard"
+                      href="https://lms-demo-silk-pi.vercel.app/dashboard"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { Helmet } from 'react-helmet';
-import { MapPin, Mail, Phone, Facebook, Linkedin, Youtube } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook, Linkedin, Youtube, Instagram } from 'lucide-react';
 import { toast } from 'sonner';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
@@ -146,6 +146,9 @@ const [isSent, setIsSent] = useState(false);
                         </a>
                         <a href="https://www.youtube.com/channel/UC7hYS5V5hWQVe03XBBdnciw" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl glass-button flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 hover:shadow-[0_0_15px_rgba(255,215,0,0.3)] smooth-transition">
                           <Youtube className="w-5 h-5" />
+                        </a>
+                        <a href="https://www.instagram.com/cputek/" target="_blank" rel="noopener noreferrer" aria-label="CPUTEK on Instagram" className="w-12 h-12 rounded-xl glass-button flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 hover:shadow-[0_0_15px_rgba(255,215,0,0.3)] smooth-transition">
+                          <Instagram className="w-5 h-5" />
                         </a>
                       </div>
                     </div>

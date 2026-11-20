@@ -26,9 +26,26 @@ const toggleVideo = () => {
 };
 
   const testimonials = [
-    { name: 'Priya Sharma', role: 'CEO, TechVision India', initials: 'PS', text: 'CPUtek transformed our digital presence completely. Their team delivered beyond expectations with creative solutions that drove real results.' },
-    { name: 'Arjun Mehta', role: 'Marketing Director, GrowthHub', initials: 'AM', text: 'Working with CPUtek has been a game-changer. Their digital marketing strategies increased our leads by 240% in just three months.' },
-    { name: 'Neha Kapoor', role: 'Founder, EduLearn', initials: 'NK', text: 'The e-learning videos and animations CPUtek created for us are exceptional. Student engagement has never been higher.' },
+    {
+      name: 'Kevin Arnold',
+      initials: 'KA',
+      text: 'It was wonderful to work with Abanty and Arghish. I like their responsiveness and dedication throughout the entire process. The final product was excellent, and I\'m very pleased with the results. I highly recommend their services for anyone seeking high-quality design work.'
+    },
+    {
+      name: 'Vimal Trivedi',
+      initials: 'VT',
+      text: 'I  from Hyderabad, and I would like to share my positive experience working with CPUTEK Pvt Ltd. Our collaboration has been extremely satisfying. The team at CPUTEK showcases remarkable efficiency and professionalism in all aspects of their work. Their innovative designs are both practical and tailored to our needs, making them a valuable partner in our projects. Additionally, their skilled and dedicated workforce fosters a collaborative atmosphere that enhances productivity. I also appreciate their commitment to delivering high-quality solutions at economical prices. Overall, CPUTEK Pvt Ltd has proven to be an excellent choice for our business needs.'
+    },
+    {
+      name: 'Sayan Mandal',
+      initials: 'SM',
+      text: 'Working with CPUTEK has been an absolute game-changer for our brand. Their team\'s dedication, creativity, and attention to detail have truly exceeded our expectations. From the initial concept development to the final product, they brought our vision to life in the most spectacular way possible.\nThe level of professionalism demonstrated by the entire team was remarkable. They took the time to understand our goals and objectives, ensuring that every frame captured the essence of our app. The production process was seamless, with clear communication and timely updates at every stage.'
+    },
+    {
+      name: 'Pratika Poorswani',
+      initials: 'PP',
+      text: 'It has been an absolute pleasure working with CPUTEK! Abanty and Arghish have been extremely cooperative and helpful with the projects. From onboarding to delivery, their process has been seamless and I look forward to establishing an ongoing partnership with them. Great job team!'
+    },
   ];
 
   return (
@@ -137,7 +154,7 @@ const toggleVideo = () => {
             </ScrollRevealAnimation>
 
             <ScrollRevealAnimation stagger={true}>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
                 {testimonials.map((testimonial, index) => (
                   <TestimonialCard key={index} testimonial={testimonial} index={index} />
                 ))}

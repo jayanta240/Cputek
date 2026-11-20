@@ -4,16 +4,8 @@ import { Target, Eye, Award, Users } from 'lucide-react';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import ScrollRevealAnimation from '@/components/ScrollRevealAnimation.jsx';
-import TeamMemberCard from '@/components/TeamMemberCard.jsx';
 
 const AboutPage = () => {
-  const team = [
-    { name: 'Rajesh Kumar', role: 'Chief Executive Officer', initials: 'RK', bio: 'Visionary leader with 15 years of experience in digital transformation.' },
-    { name: 'Ananya Singh', role: 'Creative Director', initials: 'AS', bio: 'Award-winning designer passionate about creating memorable brand experiences.' },
-    { name: 'Vikram Patel', role: 'Head of Technology', initials: 'VP', bio: 'Tech innovator specializing in scalable software architecture.' },
-    { name: 'Meera Reddy', role: 'Marketing Strategist', initials: 'MR', bio: 'Data-driven marketer focused on delivering measurable ROI.' },
-  ];
-
   const values = [
     { icon: <Target className="w-8 h-8" />, title: 'Innovation First', description: 'We stay ahead of industry trends and continuously explore new technologies to deliver cutting-edge solutions.' },
     { icon: <Users className="w-8 h-8" />, title: 'Client-Centric', description: 'Your success is our success. We build lasting partnerships through transparent communication and exceptional service.' },
@@ -125,29 +117,6 @@ const AboutPage = () => {
           </div>
         </section>
 
-        <section className="py-24 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent" />
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <ScrollRevealAnimation>
-              <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 tracking-tight">
-                  Meet our team
-                </h2>
-                <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                  Talented professionals dedicated to your success
-                </p>
-              </div>
-            </ScrollRevealAnimation>
-
-            <ScrollRevealAnimation stagger={true}>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {team.map((member, index) => (
-                  <TeamMemberCard key={index} member={member} index={index} />
-                ))}
-              </div>
-            </ScrollRevealAnimation>
-          </div>
-        </section>
       </main>
 
       <Footer />
